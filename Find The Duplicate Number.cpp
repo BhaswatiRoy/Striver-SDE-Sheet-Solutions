@@ -1,5 +1,7 @@
 /*
+store elements in a map and return the element that has frequency greater than 1
 
+TC - O(n), SC - O(n)
 */
 
 int findDuplicate(vector<int>& nums) 

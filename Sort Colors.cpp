@@ -1,6 +1,8 @@
 /*
 Keep a count of all colors 0,1,2 then clear the array and add them again in order
 While adding we will add 0's first then 1's and finally 2's
+
+TC - O(n), SC - O(1)
 */
 
 void sortColors(vector<int>& nums) 

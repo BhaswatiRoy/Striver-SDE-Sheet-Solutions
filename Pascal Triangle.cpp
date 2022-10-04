@@ -1,6 +1,8 @@
 /*
 1st element of 0th row will be 1
 Storing 1 for 0th col of every row and then iterate from 1st col to store values according to formula
+
+TC - O(n^2), SC - O(1)
 */
 vector<vector<int>> generate(int numRows) 
 {

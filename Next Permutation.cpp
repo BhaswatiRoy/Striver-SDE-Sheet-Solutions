@@ -6,6 +6,8 @@ finding lexicographically smallest next permutation.
 3. we can then swap nums[l] & nums[k] then reverse the array after breakpoint till end
    for others like {1,2,3} k=1,l=2 - thus swapping them gives {1,3,2} 
    and then reversing from k+1 i.e 2 to end which means last index here gives {1,3,2}
+
+TC - O(n), SC - O(1)
 */
 void nextPermutation(vector<int>& nums) 
 {

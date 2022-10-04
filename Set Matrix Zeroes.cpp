@@ -1,6 +1,8 @@
 /*
 Store (row,col) values in a vector which has any element as 0 in them
 While travsering again if found that the row/col is associated with 0 them mark row/col entirely as 0
+
+TC - O(n^2), SC - O(n)
 */
 void setZeroes(vector<vector<int>>& matrix) 
 {

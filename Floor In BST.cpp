@@ -18,12 +18,14 @@ int floorbst(TreeNode* root, int key)
          floor=root->val;
          return floor;
        }
-       else if(root->val<k)
+       //if nodeval is less than key then we can go to right
+       else if(root->val<key)
        {
          floor=root->val;
          root=root->right;
        }
-       else if(root->val>k)
+       //if nodeval is more than key then we can go to left
+       else if(root->val>key)
        {
          root=root->left;
        }

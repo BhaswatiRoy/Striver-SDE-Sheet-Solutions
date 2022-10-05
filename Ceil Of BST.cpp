@@ -12,15 +12,18 @@ int ceilbst(TreeNode* root, int key)
      int ceil=-1;
      while(root!=NULL)
      {
+       //if value equal to key is found return that value itself
        if(root->data==key)
        {
          ceil=root->data;
          return ceil;
        }
+       //if nodeval is less than key then we can go to right   
        else if(root->data<key)
        {
          root=root->right;
        }
+       //if nodeval is more than key then we can go to left
        else if(root->data>key)
        {
          ceil=root->data;

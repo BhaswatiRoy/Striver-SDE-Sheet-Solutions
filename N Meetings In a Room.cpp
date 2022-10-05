@@ -2,6 +2,8 @@
 We can store pairs {endtime,starttime} in vectors, and sort them in ascending order i.e order of endtime
 This way we can see if starttime of next activity is more than endtime of prev activity
 This helps us to count how many total n activities can take place without clashing with each other
+
+TC - O(nlogn), SC - O(n)
 */
 
 

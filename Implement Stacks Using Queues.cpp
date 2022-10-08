@@ -1,13 +1,11 @@
 /*
-1. Using 2 queues
-   Steps - Take 2 queues q1,q2
+1. Steps - Take 2 queues q1,q2
    Push - Add x to q2
            Move all elements from q1 to q2 element by element from front of q1
            Swap all elements of q1 & q2
    Pop  - Remove from front of q1
 
-2. Using 1 queue
-   Steps - Take 2 queues q1,q2
+2. Steps - Take 2 queues q1,q2
    Push - Add x to q
           Iterate till q.size()-1 elements and remove them fron front and add to back
    Pop - Remove from front of q

@@ -1,6 +1,8 @@
 /*
 Coin Change Problem 1 - Find minimum no of coins of different denominations that needs to be taken in combination to represent the total amount of money
                         Similar to unbounded knapsack as we can pick multiple same denomination coins but here instead of "max" we do "min"
+			
+			We can recursively solve this, in knapsack approach, i.e if value is less than or equal to amount then we can try to pick it otherwise can't.
 */
 
 //TC=O(2^n), SC=O(1)

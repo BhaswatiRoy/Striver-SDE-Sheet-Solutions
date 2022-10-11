@@ -14,7 +14,7 @@ Inorder - [40,20,50,10,60,30], Preorder - [10,20,40,50,30,60] - thus we can recu
  /       \      /
 40       50    60
 
-TC - O(n), SC - O(1)
+TC - O(n), SC - O(n)
 */
 
 //prestart & preend = start and end indices of preorder which we put values recursively

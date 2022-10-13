@@ -45,9 +45,9 @@ int noofwaysmemoization(vector<int>&coins,int amount,int n,vector<vector<int>>&d
 		return 1;
 	}
 	if(dp[n][amount]!=-1)
-    {
-        return dp[n][amount];
-    }
+        {
+                return dp[n][amount];
+        }
 	if(coins[n-1]<=amount)
 	{
 		return dp[n][amount]=noofwaysmemoization(coins,amount-coins[n-1],n,dp)+noofwaysmemoization(coins,amount,n-1,dp);

@@ -1,14 +1,16 @@
 /*
-With left and right traversals if any of them is NULL then return the other one.
-If both are not null then root will be returned, since both the nodes we are looking for - p,q lies under this root
-This way we can keep track of last element that matched in the common path.
+1. Write path from root to p node & write path from root to q node. Then find last common from both path vectors.
+   TC - O(n), SC - O(n)
 
-TC - O(n), SC - O(1)
+2. With left and right traversals if any of them is NULL then return the other one.
+   If both are not null then root will be returned, since both the nodes we are looking for - p,q lies under this root
+   This way we can keep track of last element that matched in the common path.
+   TC - O(n), SC - O(1)
 */
 
 TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) 
 {
-        //if we found any of the nodes we will return tht node
+        //if we found any of the nodes we will return that node
         if(root==NULL || root==p || root==q)
         {
             return root;

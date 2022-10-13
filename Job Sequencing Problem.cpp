@@ -1,6 +1,12 @@
 /*
-We can sort the job based on profit so that we can maximize the profit
-And we can do 
+We can sort the job based on profit so that we can maximize the profit.
+And we can first sort the jobs accoridng to profits in descending order.
+Now we can perform a job in the last day of deadline so that we can maximise the jobs done.
+
+We can also keep a vector to mark which job is to be done on which day and initially set to -1.
+If on any day we see a job is already being done then we can move backwards and check other days for the job.
+
+TC - O(nlogn), SC - O(n)
 */
 
 struct Job 

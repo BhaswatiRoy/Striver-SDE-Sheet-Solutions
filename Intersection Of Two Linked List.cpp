@@ -2,7 +2,7 @@
 1. We can use a map and store the nodes into it. And traverse the map to find the common node which is intersection point
    TC - O(n), SC - O(n)
    
-2. We can use 2 pointers - temp1, temp2. If any pointer is not null keep traversing, otherwise set it to beginning. 
+2. We can use 2 pointers - temp1, temp2. If any pointer is not null keep traversing, otherwise set it to head of opposite list. 
    Keep traversing till we find the intersection point
    TC - O(n), SC - O(1)
 */

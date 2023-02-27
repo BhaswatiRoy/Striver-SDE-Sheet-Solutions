@@ -46,7 +46,7 @@ ListNode *getIntersectionNode(ListNode *headA, ListNode *headB)
             //otherwise set it to head and traverse from beginning 
             else
             {
-                temp1=headA;
+                temp1=headB;
             }
             //if 1st pointer is not null then travrse 
             if(temp2!=NULL)
@@ -56,7 +56,7 @@ ListNode *getIntersectionNode(ListNode *headA, ListNode *headB)
             //otherwise set it to head and traverse from beginning 
             else
             {
-                temp2=headB;
+                temp2=headA;
             }
         }
         return NULL;

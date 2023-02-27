@@ -9,6 +9,9 @@ finding lexicographically smallest next permutation.
 
 We can also use next_permutation() & prev_permutation() functions in C++
 
+All permutations of 1 2 3 - 1 3 2, 2 1 3, 3 1 2, 3 2 1 (all in lexicographically sorted order)
+Then next permutation of 3 1 2 is 3 2 1
+
 TC - O(n), SC - O(1)
 */
 void nextPermutation(vector<int>& nums) 

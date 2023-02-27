@@ -2,10 +2,12 @@
 finding lexicographically smallest next permutation.
 1. We find a breakpoint k such that - nums[k]<nums[k+1] traversing from back
    for arrays like {3,2,1} there is no breakpoint so simply reversing gives ans
-2. for others we try to find a point l such that - nums[l]>nums[k]
+2. for others we traverse from back and try to find a point l such that - nums[l]>nums[k]
 3. we can then swap nums[l] & nums[k] then reverse the array after breakpoint till end
    for others like {1,2,3} k=1,l=2 - thus swapping them gives {1,3,2} 
    and then reversing from k+1 i.e 2 to end which means last index here gives {1,3,2}
+
+We can also use next_permutation() & prev_permutation() functions in C++
 
 TC - O(n), SC - O(1)
 */
